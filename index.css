@@ -1,0 +1,11 @@
+#centrado {
+    text-align: center;
+}
+
+#lista_clase_animal {
+    display: inline-block;
+}
+
+#link_centrado {
+    vertical-align: middle;
+}
