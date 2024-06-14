@@ -10,7 +10,7 @@ class Alumno(models.Model):
     id_genero = models.ForeignKey('Genero',on_delete=models.CASCADE, db_column='idGenero')
     telefono = models.CharField(max_length=45)
     email = models.EmailField(unique=True,max_length=100,blank=True,null=True)
-    direccion = models.CharField(max_length=50,,blank=True,null=True)
+    direccion = models.CharField(max_length=50,blank=True,null=True)
     activo = models.IntegerField()
 
     def __str__(self):
